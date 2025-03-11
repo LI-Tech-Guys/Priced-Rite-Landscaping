@@ -441,6 +441,10 @@
 
     /* Responsive */
     @media (max-width: 768px) {
+      body {
+        padding-top: 150px;
+      }
+
       header {
         flex-direction: column;
         gap: 20px;
