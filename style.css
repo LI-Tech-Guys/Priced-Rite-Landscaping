@@ -251,6 +251,13 @@
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for both zoom and dim */
+  }
+
+  .gallery-item img:hover {
+    filter: brightness(70%);
+    transform: scale(1.05);
+    cursor: pointer;
   }
   
   .gallery-item p {
