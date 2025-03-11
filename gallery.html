@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-
+  <script type="text/javascript" src="scripts.js"></script>
   <!-- Header Section -->
   <header>
     <div class="logo">
@@ -38,62 +38,62 @@
     <div class="gallery-container">
       
       <div class="gallery-item">
-        <img src="imgs/house1.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house1.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house2.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house2.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house3.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house3.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house4.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house4.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house5.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house5.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house6.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house6.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house7.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house7.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house8.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house8.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house9.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house9.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house10.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house10.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house11.png" alt="Weekly Maintenance" loading="lazy"/>
+        <img src="imgs/house11.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
       <div class="gallery-item">
-        <img src="imgs/house12.png" alt="Weekly Maintenance" loading="lazy" />
+        <img src="imgs/house12.png" alt="Weekly Maintenance" loading="lazy" onclick="openLightbox(this)"/>
         <p>Weekly Maintenance</p>
       </div>
 
@@ -124,6 +124,10 @@
 
   <div class="site-credit">
     <p>Created by <a href="https://www.litechguys.com/" target="_blank">LI Tech Guys LLC</a></p>
+  </div>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Expanded Image" />
   </div>
 
 </body>
