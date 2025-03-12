@@ -169,7 +169,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.6); /* Dark overlay; adjust opacity if you want lighter */
+      background: rgba(0, 0, 0, 0.3); /* Dark overlay; adjust opacity if you want lighter */
       z-index: 1;
     }
 
